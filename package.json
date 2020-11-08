@@ -2,11 +2,17 @@
   "name": "random_number",
   "version": "1.0.0",
   "description": "Game: Learn numbers",
+  "homepage": "https://gbsimon87.github.io/games",
   "main": "index.js",
   "repository": "https://github.com/gbsimon87/js-games-learn-numbers.git",
   "author": "Yibran Simon Cordova",
   "license": "MIT",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh pages -d build"
+  },
   "dependencies": {
+    "gh-pages": "^3.1.0",
     "prettier": "^2.1.2"
   }
 }
