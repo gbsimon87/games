@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js"></script>
+    <title>Learn Numbers</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="game-area">
+          <p class="game-area-title text-dark">Learn your numbers</p>
+          <p class="game-area-content text-dark"></p>
+          <div class="game-area-controls">
+            <form class="game-area-controls-form">
+              <div class="game-area-select-game">
+                <select class="games" id="games" name="games">
+                  <option value="numbers">Numbers</option>
+                  <option value="colours">Colours</option>
+                  <option value="fruits">Fruits</option>
+                  <option value="shapes">Shapes</option>
+                </select>
+              </div>
+              <div>
+                <label class="speed-range-label" for="speed"
+                  >Speed (1 to 5 seconds):</label
+                >
+                <input
+                  type="range"
+                  class="speed-range-input"
+                  id="speed"
+                  name="speed"
+                  min="1"
+                  max="5"
+                  value="1"
+                />
+              </div>
+              <div>
+                <button
+                  type="submit"
+                  class="game-area-controls-play-pause btn btn-success"
+                >
+                  PLAY
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

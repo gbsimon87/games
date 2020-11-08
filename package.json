@@ -1,0 +1,12 @@
+{
+  "name": "random_number",
+  "version": "1.0.0",
+  "description": "Game: Learn numbers",
+  "main": "index.js",
+  "repository": "https://github.com/gbsimon87/js-games-learn-numbers.git",
+  "author": "Yibran Simon Cordova",
+  "license": "MIT",
+  "dependencies": {
+    "prettier": "^2.1.2"
+  }
+}
